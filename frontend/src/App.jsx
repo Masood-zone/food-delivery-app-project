@@ -8,8 +8,7 @@ import Footer from "./components/Footer/Footer";
 import LoginPopUp from "./components/LoginPopUp/LoginPopUp";
 
 const App = () => {
-
-  const [showLogin, setShowLogin] =useState(false)
+  const [showLogin, setShowLogin] = useState(false);
   return (
     <>
       {showLogin ? <LoginPopUp setShowLogin={setShowLogin} /> : <></>}
