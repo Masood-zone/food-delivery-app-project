@@ -6,6 +6,7 @@ const Footer = () => {
   return (
     <div className="footer" id="footer">
       <div className="footer-content">
+        {/*First section */}
         <div className="footer-content-lift">
           <img src={assets.logo} alt="" />
           <p>
@@ -20,6 +21,7 @@ const Footer = () => {
             <img src={assets.linkedin_icon} alt="" />
           </div>
         </div>
+        {/*Second section */}
         <div className="footer-content-center">
           <h2>COMPANY</h2>
           <ul>
@@ -29,6 +31,7 @@ const Footer = () => {
             <li>Privacy Policy</li>
           </ul>
         </div>
+        {/*Last section */}
         <div className="footer-content-right">
           <h2>GET IN TOUCH</h2>
           <ul>

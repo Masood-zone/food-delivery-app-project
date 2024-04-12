@@ -12,7 +12,7 @@ const LoginPopUp = ({ setShowLogin }) => {
           <img
             onClick={() => setShowLogin(false)}
             src={assets.cross_icon}
-            alt=""
+            alt="close-icon"
           />
         </div>
         <div className="login-popup-inputs">

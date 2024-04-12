@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./Navbar.css";
 import { assets } from "../../assets/assets";
 import { Link } from "react-router-dom";
@@ -45,6 +45,13 @@ const Navbar = ({ setShowLogin }) => {
         >
           Contact Us
         </a>
+        <Link
+          to="/about-us"
+          onClick={() => setMenu("about-us")}
+          className={menu === "about-us" ? "active" : ""}
+        >
+          About Us
+        </Link>
       </ul>
       <div className="navbar-right">
         <img src={assets.search_icon} alt="" />
